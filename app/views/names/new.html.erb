@@ -1,0 +1,6 @@
+<h1>Tell me your name!</h1>
+<%= simple_form_for @givename do |f| %>
+	<%= f.input :first %>
+	<%= f.input :last %>
+	<%= f.submit 'Create', :class => 'btn btn-danger' %>
+<% end %>
